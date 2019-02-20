@@ -250,12 +250,12 @@ snakeMovement = function() {
 			snakeList[i].y = snakeList[i-1].y;
 			}
 		}
-		if(slowMo == true){
-			console.log(slowMo);
-			fps = 8;
-			clearInterval(interval);
-			interval = setInterval(main, 1000/ fps);
-		} 
+// 		if(slowMo == true){
+// 			console.log(slowMo);
+// 			fps = 8;
+// 			clearInterval(interval);
+// 			interval = setInterval(main, 1000/ fps);
+// 		} 
 	}
 }
 
